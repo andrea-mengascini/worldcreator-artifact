@@ -1,0 +1,316 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 32px;
+  font-size: 2.2em;
+  letter-spacing: 0.5px;
+  color: #1c2437;
+}
+
+.video-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 22px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.column-header {
+  text-align: center;
+  font-weight: bold;
+  /* background-color: #e7eaf2; */
+  padding: 12px 0;
+  border-radius: 8px 8px 0 0;
+  letter-spacing: 0.3px;
+  color: #21305b;
+  font-size: 1.1em;
+}
+
+.column-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 22px 0 28px 0;
+  background: #f8f8fa;
+  border-bottom: 1px solid #e3e7ee;
+  border-radius: 0 0 12px 12px;
+  box-shadow: 0 2px 10px rgba(110,130,190,0.03);
+}
+
+/* Victim column has faint blue glow around box */
+.video-grid > .column-info:first-of-type {
+  box-shadow: 0 0 24px 6px rgba(0, 132, 255, 0.13), 0 2px 10px rgba(110,130,190,0.03);
+  border-radius: 12px;
+}
+
+/* Remove glow for attacker column box */
+.video-grid > .column-info:last-of-type {
+  /* Only subtle box-shadow for elevation, no color glow */
+  box-shadow: 0 2px 10px rgba(110,130,190,0.03);
+  border-radius: 12px;
+}
+
+.column-image {
+  width: 120px;
+  height: 120px;
+  margin-bottom: 14px;
+  object-fit: contain;
+  object-position: center;
+  display: block;
+  background: transparent;
+}
+
+/* PNG/SVG GLOWS */
+.victim-glow {
+  filter: drop-shadow(0 0 18px rgba(0, 132, 255, 0.45));
+}
+.attacker-glow {
+  filter: drop-shadow(0 0 28px rgba(255, 0, 0, 0.8));
+}
+
+.column-desc {
+  font-size: 1.09em;
+  color: #333d55;
+  text-align: center;
+  max-width: 340px;
+  line-height: 1.6;
+  margin: 0 auto;
+  padding: 0 8px;
+  letter-spacing: 0.1px;
+}
+
+.attack-title {
+  grid-column: span 2;
+  text-align: center;
+  font-size: 1.19em;
+  margin: 26px 0 10px 0;
+  background-color: #e7eaf2;
+  color: #1c2437;
+  padding: 10px;
+  border-radius: 6px;
+  font-weight: 600;
+  letter-spacing: 0.2px;
+  box-shadow: 0 1px 6px rgba(100, 130, 200, 0.05);
+}
+
+.controls {
+  grid-column: span 2;
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+.controls button {
+  padding: 8px 22px;
+  font-size: 1em;
+  cursor: pointer;
+  background: #f4f6fa;
+  border: 1px solid #b8c1d6;
+  border-radius: 6px;
+  font-weight: 500;
+  transition: background 0.18s, border 0.18s, box-shadow 0.2s;
+  color: #243259;
+  outline: none;
+  box-shadow: 0 1px 4px rgba(60,80,160,0.08);
+}
+
+.controls button:hover,
+.controls button:focus {
+  background: #dbeafe;
+  border-color: #3296fa;
+  box-shadow: 0 2px 10px rgba(65, 123, 255, 0.09);
+}
+
+.descriptions {
+  grid-column: span 2;
+  text-align: center;
+  margin-bottom: 16px;
+  height: 1.5em;
+  overflow: hidden;
+  position: relative;
+}
+
+.sentence-display {
+  display: inline-block;
+  font-style: italic;
+  opacity: 0;
+  transition: opacity 0.5s;
+  white-space: nowrap;
+  min-width: 160px;
+  color: #2b4d83;
+}
+
+.sentence-display.show {
+  opacity: 1;
+}
+
+.hidden-sentences {
+  display: none;
+}
+
+.video-cell {
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #fff;
+  transition: box-shadow 0.3s, border 0.3s;
+  box-shadow: 0 2px 10px rgba(60,90,160,0.07);
+}
+
+.video-cell.victim {
+  background-color: #e4f2ff;
+}
+
+.video-cell.attacker {
+  background-color: #ffe0e0;
+}
+
+.highlight {
+  border: 3px solid #ff9800;
+  box-shadow: 0 0 14px rgba(255, 152, 0, 0.22);
+}
+
+video {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 6px;
+  background: #000;
+}
+
+/* Platform Selector Styles */
+.platform-selector-row {
+  display: flex;
+  justify-content: center;
+  gap: 26px;
+  margin: 40px 0 34px 0;
+}
+
+.platform-card {
+  background: #f5f7fa;
+  border-radius: 12px;
+  padding: 20px 28px 16px 28px;
+  box-shadow: 0 2px 8px rgba(70, 80, 130, 0.07);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  transition: box-shadow 0.18s, border 0.18s, background 0.16s;
+  border: 2px solid transparent;
+  min-width: 112px;
+  user-select: none;
+}
+
+.platform-card-img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 9px;
+  object-fit: contain;
+  object-position: center;
+  display: block;
+  background: transparent;
+}
+
+.platform-card span {
+  font-weight: 600;
+  color: #263469;
+  font-size: 1.10em;
+  margin-top: 2px;
+  letter-spacing: 0.18px;
+}
+
+.platform-card:hover,
+.platform-card.active {
+  background: #eaf0ff;
+  box-shadow: 0 4px 24px rgba(60,90,180,0.14);
+  border: 2.2px solid #447fff;
+}
+
+.platform-card.active {
+  background: #d6e6ff;
+}
+
+.platform-attacks-container {
+  margin-top: 12px;
+}
+
+.platform-attacks {
+  display: none;
+  animation: fadeIn 0.4s;
+}
+.platform-attacks.show {
+  display: block;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(16px);}
+  to   { opacity: 1; transform: none;}
+}
+
+/* Responsive adjustments */
+@media (max-width: 900px) {
+  .video-grid {
+    max-width: 98vw;
+    gap: 12px;
+  }
+  .platform-selector-row {
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  .platform-card {
+    min-width: 96px;
+    padding: 14px 10px 12px 10px;
+  }
+}
+
+@media (max-width: 600px) {
+  .video-grid {
+    grid-template-columns: 1fr;
+    gap: 7px;
+  }
+  .attack-title, .controls, .descriptions {
+    grid-column: span 1;
+  }
+  .platform-selector-row {
+    gap: 4px;
+    margin: 22px 0 18px 0;
+  }
+  h1 {
+    font-size: 1.3em;
+  }
+  .column-info {
+    padding: 13px 0 14px 0;
+  }
+  .column-desc {
+    max-width: 92vw;
+    font-size: 0.98em;
+  }
+}
+/* victim-explanation needs to be o of the left video in a different format than the text */
+/* .victim-explanation {
+  display: block;
+  margin: 16px auto 0 auto;    
+  width: 100%;
+  max-width: 380px;
+  background: rgba(255, 255, 255, 0.97);
+  padding: 14px 18px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(60,90,160,0.08);
+  font-size: 1em;
+  color: #333d55;
+  text-align: center;
+  position: static;          
+}
+
+@media (max-width: 600px) {
+  .victim-explanation {
+    max-width: 98vw;
+    font-size: 0.98em;
+    padding: 9px 4px;
+  }
+} */
+

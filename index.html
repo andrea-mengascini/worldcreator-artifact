@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Metaverse Attacks</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Metaverse Attack Videos</h1>
+
+    <div class="platform-selector-row">
+    <div class="platform-card active" data-platform="roblox">
+      <img src="media/roblox.png" alt="Roblox" class="platform-card-img">
+      <span>Roblox</span>
+    </div>
+    <div class="platform-card" data-platform="vrchat">
+      <img src="media/vrchat.png" alt="VRChat" class="platform-card-img">
+      <span>VRChat</span>
+    </div>
+    <div class="platform-card" data-platform="spatial">
+      <img src="media/spatial.svg" alt="Spatial" class="platform-card-img">
+      <span>Spatial</span>
+    </div>
+    <div class="platform-card" data-platform="horizon">
+      <img src="media/horizonworlds.png" alt="Meta Horizon" class="platform-card-img">
+      <span>Meta Horizon</span>
+    </div>
+    <div class="platform-card" data-platform="framevr">
+      <img src="media/framevr.png" alt="FrameVR" class="platform-card-img">
+      <span>FrameVR</span>
+    </div>
+  </div>
+
+
+  <div class="video-grid">
+    <div class="column-info">
+                <div class="column-header">Victim</div>
+
+      <img src="media/victim.svg" alt="Victim" class="column-image victim-glow">
+
+      <div class="column-desc">This is the perspective of the victim within the metaverse environment.</div>
+    </div>
+    <div class="column-info">
+            <div class="column-header">Attacker</div>
+
+      <img src="media/attacker.svg" alt="Attacker" class="column-image attacker-glow">
+      <div class="column-desc">This is the perspective of the attacker targeting the victim.</div>
+    </div>
+  </div>
+
+
+  <div class="platform-attacks-container">
+    <!-- Roblox -->
+    <div class="platform-attacks platform-roblox-attacks show">
+      <div class="video-grid">
+        <!-- Attack 1 -->
+        <div class="attack-title">Attack 1: Parabolic Microphone</div>
+        <div class="controls">
+          <button onclick="togglePlay('roblox-v1', 'roblox-a1')">Play/Pause</button>
+        </div>
+        <div class="descriptions">
+          <span id="sentence-display-roblox-v1" class="sentence-display"></span>
+          <div id="hidden-sentences-roblox-v1" class="hidden-sentences">
+            <span data-start="0" data-end="5">[The attacker can hear the victim because they are close.]</span>
+            <span data-start="6" data-end="11">[The sound fades away as the victim moves further from the attacker.]</span>
+            <span data-start="25" data-end="36">[The attacker can hear the victim again when the victim is approaching the parabolic microphone in the other room.]</span>
+          </div>
+        </div>
+        <div class="video-cell victim" id="cell-roblox-v1">
+          <video id="roblox-v1" src="video/roblox_parabolic_victim.mp4"></video>
+        </div>
+        <div class="video-cell attacker" id="cell-roblox-a1">
+          <video id="roblox-a1" src="video/roblox_parabolic_attacker.mp4"></video>
+        </div>
+
+        <!-- Attack 2 -->
+        <div class="attack-title">Attack 2: Conversational Hijacking</div>
+        <div class="controls">
+          <button onclick="togglePlay('roblox-v2', 'roblox-a2')">Play/Pause</button>
+        </div>
+        <div class="descriptions">
+          <!-- explain (left video) the victim pov is not present because the bystander is more important -->
+          <!-- <span class="victim-explanation">
+            The victim's perspective is not shown in this attack, as the focus is on the bystander who is being manipulated.
+          </span> -->
+
+          <span id="sentence-display-roblox-v2" class="sentence-display"></span>
+          <div id="hidden-sentences-roblox-v2" class="hidden-sentences">
+            <span data-start="0" data-end="8">[The attacker and the bystander hear the victim talking.]</span>
+            <span data-start="10" data-end="14">[The victim is muted when the attacker presses the button.]</span>
+            <span data-start="16" data-end="32">[The attacker impersonates the victim by relaying his sound to the bystander.]</span>
+          </div>
+        </div>
+        <div class="video-cell victim" id="cell-roblox-v2">
+          <video id="roblox-v2" src="video/roblox_conv_victim.mp4"></video>
+        </div>
+        <div class="video-cell attacker" id="cell-roblox-a2">
+          <video id="roblox-a2" src="video/roblox_conv_attacker.mp4"></video>
+        </div>
+        <!-- Attack 3 -->
+        <div class="attack-title">Attack 3: Control Room</div>
+        <div class="controls">
+          <button onclick="togglePlay('roblox-v3', 'roblox-a3')">Play/Pause</button>
+        </div>
+        <div class="descriptions">
+          <span id="sentence-display-roblox-v3" class="sentence-display"></span>
+          <div id="hidden-sentences-roblox-v3" class="hidden-sentences">
+            <span data-start="0" data-end="5">[The victim is going to a room while the attacker is watching the room using a camera.]</span>
+            <span data-start="11" data-end="14">[The victim enters the camera's view.]</span>
+          </div>
+        </div>
+        <div class="video-cell victim" id="cell-roblox-v3">
+          <video id="roblox-v3" src="video/roblox_control_victim.mp4"></video>
+        </div>
+        <div class="video-cell attacker" id="cell-roblox-a3">
+          <video id="roblox-a3" src="video/roblox_control_attacker.mp4"></video>
+        </div>
+        <!-- Attack 4 -->
+        <div class="attack-title">Attack 4: Astral Projection</div>
+        <div class="controls">
+          <button onclick="togglePlay('roblox-v4', 'roblox-a4')">Play/Pause</button>
+        </div>
+        <div class="descriptions">
+          <span id="sentence-display-roblox-v4" class="sentence-display"></span>
+          <div id="hidden-sentences-roblox-v4" class="hidden-sentences">
+            <span data-start="0" data-end="5">[The attacker can hear the victim because they are close.]</span>
+            <span data-start="6" data-end="11">[The sound fades away as the victim moves further from the attacker.]</span>
+            <span data-start="20" data-end="22">[The attacker receives a sound feedback when the victim reaches the attack area.]</span>
+            <span data-start="23" data-end="34">[The attacker moves the camera towards the victim, allowing the attacker to see and listen to the victim.]</span>
+          </div>
+        </div>
+        <div class="video-cell victim" id="cell-roblox-v4">
+          <video id="roblox-v4" src="video/roblox_astral_victim.mp4"></video>
+        </div>
+        <div class="video-cell attacker" id="cell-roblox-a4">
+          <video id="roblox-a4" src="video/roblox_astral_attacker.mp4"></video>
+        </div>
+        <!-- Attack 5 -->
+        <div class="attack-title">Attack 5: Unidirectional Material</div>
+        <div class="controls">
+          <button onclick="togglePlay('roblox-v5', 'roblox-a5')">Play/Pause</button>
+        </div>
+        <div class="descriptions">
+          <span id="sentence-display-roblox-v5" class="sentence-display"></span>
+          <div id="hidden-sentences-roblox-v5" class="hidden-sentences">
+            <span data-start="0" data-end="5">[The victim is running around in a room while the attacker is watching the victim through a one-way see-through wall.]</span>
+            <span data-start="6" data-end="10">[The victim see the wall as a solid object while the attacker see it as a transparent object.]</span>
+            <span data-start="11" data-end="16">[The attacker starts to hear the victim when the victim gets close.]</span>
+            <span data-start="25" data-end="30">[The attacker can also see the victim from the floor below while the victim see the floor as a solid object.]</span>
+            <span data-start="31" data-end="42">[The attacker can hear the victim when they are close.]</span>
+          </div>
+        </div>
+        <div class="video-cell victim" id="cell-roblox-v5">
+          <video id="roblox-v5" src="video/roblox_unidirectional_victim.mp4"></video>
+        </div>
+        <div class="video-cell attacker" id="cell-roblox-a5">
+          <video id="roblox-a5" src="video/roblox_unidirectional_attacker.mp4"></video>
+        </div>
+      </div>
+    </div>
+    <!-- VRChat -->
+    <div class="platform-attacks platform-vrchat-attacks">
+      <div class="video-grid">
+        <!-- Add 5 VRChat attack rows here, same pattern, using vrchat-v1, vrchat-a1, etc. -->
+        <!-- Attack 1 -->
+        <div class="attack-title">Attack 1: Parabolic Microphone</div>
+        <div class="controls">
+          <button onclick="togglePlay('vrchat-v1', 'vrchat-a1')">Play/Pause</button>
+        </div>
+        <div class="descriptions">
+          <span id="sentence-display-vrchat-v1" class="sentence-display"></span>
+          <div id="hidden-sentences-vrchat-v1" class="hidden-sentences">
+            <span data-start="0" data-end="5">[The attacker can hear the victim because they are close.]</span>
+            <span data-start="6" data-end="11">[The sound fades away as the victim moves further from the attacker.]</span>
+            <span data-start="16" data-end="18">[HIGH VOLUME ALERT]</span>
+            <span data-start="19" data-end="26">[The attacker can hear the victim again when the attacker adjust the victim's volume.]</span>
+          </div>
+        </div>
+        <div class="video-cell victim" id="cell-vrchat-v1">
+          <video id="vrchat-v1" src="video/vrchat_parabolic_victim.mp4"></video>
+        </div>
+        <div class="video-cell attacker" id="cell-vrchat-a1">
+          <video id="vrchat-a1" src="video/vrchat_parabolic_attacker.mp4"></video>
+        </div>
+
+        <!-- Attack 2 -->
+        <div class="attack-title">Attack 2: Conversational Hijacking</div>
+        <div class="controls">
+          <button onclick="togglePlay('vrchat-v2', 'vrchat-a2')">Play/Pause</button>
+        </div>
+        <div class="descriptions">
+          <span id="sentence-display-vrchat-v2" class="sentence-display"></span>
+          <div id="hidden-sentences-vrchat-v2" class="hidden-sentences">
+            <span data-start="0" data-end="6">[The attacker and the bystander hear the victim talking.]</span>
+            <span data-start="7" data-end="14">[The victim is muted when the attacker uncheck the toggle.]</span>
+            <span data-start="11" data-end="26">[The attacker impersonates the victim by relaying his sound to the bystander.]</span>
+          </div>
+        </div>
+        <div class="video-cell victim" id="cell-vrchat-v2">
+          <video id="vrchat-v2" src="video/vrchat_conv_victim.mp4"></video>
+        </div>
+        <div class="video-cell attacker" id="cell-vrchat-a2">
+          <video id="vrchat-a2" src="video/vrchat_conv_attacker.mp4"></video>
+        </div>
+
+        <!-- Attack 3 -->
+        <div class="attack-title">Attack 3: Control Room</div>
+        <div class="controls">
+          <button onclick="togglePlay('vrchat-v3', 'vrchat-a3')">Play/Pause</button>
+        </div>
+        <div class="descriptions">
+          <span id="sentence-display-vrchat-v3" class="sentence-display"></span>
+          <div id="hidden-sentences-vrchat-v3" class="hidden-sentences">
+            <span data-start="0" data-end="10">[The victim is moving around in a room while the attacker is watching the room using a camera that is projected to a screen.]</span>
+          </div>
+        </div>
+        <div class="video-cell victim" id="cell-vrchat-v3">
+          <video id="vrchat-v3" src="video/vrchat_control_victim.mp4"></video>
+        </div>
+        <div class="video-cell attacker" id="cell-vrchat-a3">
+          <video id="vrchat-a3" src="video/vrchat_control_attacker.mp4"></video>
+        </div>
+
+        <!-- Attack 4 -->
+        <div class="attack-title">Attack 4: Astral Projection</div>
+        <div class="controls">
+          <button onclick="togglePlay('vrchat-v4', 'vrchat-a4')">Play/Pause</button>
+        </div>
+        <div class="descriptions">
+          <span id="sentence-display-vrchat-v4" class="sentence-display"></span>
+          <div id="hidden-sentences-vrchat-v4" class="hidden-sentences">
+            <span data-start="0" data-end="3">[The victim is moving around in a room while the attacker is watching the room using a camera that is projected to a screen.]</span>
+            <span data-start="4" data-end="13">[The attacker is moving the camera into the room.]</span>
+          </div>
+        </div>
+        <div class="video-cell victim" id="cell-vrchat-v4">
+          <video id="vrchat-v4" src="video/vrchat_astral_victim.mp4"></video>
+        </div>
+        <div class="video-cell attacker" id="cell-vrchat-a4">
+          <video id="vrchat-a4" src="video/vrchat_astral_attacker.mp4"></video>
+        </div>
+
+        <!-- Attack 5 -->
+        <div class="attack-title">Attack 5: Unidirectional Material</div>
+        <div class="controls">
+          <button onclick="togglePlay('vrchat-v5', 'vrchat-a5')">Play/Pause</button>
+        </div>  
+        <div class="descriptions">
+          <span id="sentence-display-vrchat-v5" class="sentence-display"></span>
+          <div id="hidden-sentences-vrchat-v5" class="hidden-sentences">
+            <span data-start="0" data-end="4">[The victim is moving around in a room with solid walls.]</span>
+            <span data-start="4" data-end="7">[The attacker is watching the victim through a one-way see-through wall.]</span>
+            <span data-start="7" data-end="9">[The attacker can also hear the victim.]</span>
+            <span data-start="13" data-end="15">[The attacker can also see the victim from the floor below while the victim see the floor as a solid object.]</span>
+            <span data-start="16" data-end="17">[The sound gets louder as the attacker approaches the victim.]</span>
+          </div>
+        </div>
+        <div class="video-cell victim" id="cell-vrchat-v5">
+          <video id="vrchat-v5" src="video/vrchat_unidirectional_victim.mp4"></video>
+        </div>
+        <div class="video-cell attacker" id="cell-vrchat-a5">
+          <video id="vrchat-a5" src="video/vrchat_unidirectional_attacker.mp4"></video>
+        </div>
+
+
+      </div>
+    </div>
+    <!-- Spatial -->
+    <div class="platform-attacks platform-spatial-attacks">
+      <div class="video-grid">
+        <!-- Add 5 spatial attack rows here -->
+        <!-- Attack 1 -->
+        <div class="attack-title">Attack 1: Control Room</div>
+        <div class="controls">
+          <button onclick="togglePlay('spatial-v1', 'spatial-a1')">Play/Pause</button>
+        </div>
+        <div class="descriptions">
+          <span id="sentence-display-spatial-v1" class="sentence-display"></span>
+          <div id="hidden-sentences-spatial-v1" class="hidden-sentences">
+            <span data-start="0" data-end="9">The victim is moving around in a room while the attacker is watching the room using a camera that is projected to a screen.</span>
+          </div>
+        </div>
+        <div class="video-cell victim" id="cell-spatial-v1">
+          <video id="spatial-v1" src="video/spatial_control_victim.mp4"></video>
+        </div>
+        <div class="video-cell attacker" id="cell-spatial-a1">
+          <video id="spatial-a1" src="video/spatial_control_attacker.mp4"></video>
+        </div>
+
+        <!-- Attack 2 -->
+        <div class="attack-title">Attack 2: Astral Projection</div>
+        <div class="controls">
+          <button onclick="togglePlay('spatial-v2', 'spatial-a2')">Play/Pause</button>
+        </div>
+        <div class="descriptions">
+          <span id="sentence-display-spatial-v2" class="sentence-display"></span>
+          <div id="hidden-sentences-spatial-v2" class="hidden-sentences">
+            <span data-start="0" data-end="5">[The victim is moving around in a room while the attacker is watching the room using a camera that is projected to a screen.]</span>
+            <span data-start="5" data-end="16">[The attacker is moving the camera into the room.]</span>
+          </div>
+        </div>
+        <div class="video-cell victim" id="cell-spatial-v2">
+          <video id="spatial-v2" src="video/spatial_astral_victim.mp4"></video>
+        </div>
+        <div class="video-cell attacker" id="cell-spatial-a2">
+          <video id="spatial-a2" src="video/spatial_astral_attacker.mp4"></video>
+        </div>
+
+        <!-- Attack 3 -->
+        <div class="attack-title">Attack 3: Unidirectional Material</div>
+        <div class="controls">
+          <button onclick="togglePlay('spatial-v3', 'spatial-a3')">Play/Pause</button>
+        </div>
+        <div class="descriptions">
+          <span id="sentence-display-spatial-v3" class="sentence-display"></span>
+          <div id="hidden-sentences-spatial-v3" class="hidden-sentences">
+            <span data-start="0" data-end="2">[The victim is moving around in a room with solid walls.]</span>
+            <span data-start="2" data-end="5">[The attacker is watching the victim through a one-way see-through wall.]</span>
+            <span data-start="5" data-end="7">[The attacker can also hear the victim.]</span>
+            <span data-start="8" data-end="18">[The attacker can also see the victim from the floor below while the victim see the floor as a solid object.]</span>
+          </div>
+        </div>
+        <div class="video-cell victim" id="cell-spatial-v3">
+          <video id="spatial-v3" src="video/spatial_unidirectional_victim.mp4"></video>
+        </div>
+        <div class="video-cell attacker" id="cell-spatial-a3">
+          <video id="spatial-a3" src="video/spatial_unidirectional_attacker.mp4"></video>
+        </div>
+      </div>
+    </div>
+    <!-- Meta Horizon -->
+    <div class="platform-attacks platform-horizon-attacks">
+      <div class="video-grid">
+        <!-- Add 5 Meta Horizon attack rows here -->
+        <!-- Attack 1 -->
+        <div class="attack-title">Attack 1: Astral Projection</div>
+        <div class="controls">
+          <button onclick="togglePlay('horizon-v1', 'horizon-a1')">Play/Pause</button>
+        </div>
+        <div class="descriptions">
+          <span id="sentence-display-horizon-v1" class="sentence-display"></span>
+          <div id="hidden-sentences-horizon-v1" class="hidden-sentences">
+            <span data-start="0" data-end="8">[The attacker keeps clicking a button to move their camera forward, passing through walls.]</span>
+            <span data-start="8" data-end="18">[The attacker sees the victim moving in the room.]</span>
+          </div>
+        </div>
+        <div class="video-cell victim" id="cell-horizon-v1">
+          <video id="horizon-v1" src="video/horizon_astral_victim.mp4"></video>
+        </div>
+        <div class="video-cell attacker" id="cell-horizon-a1">
+          <video id="horizon-a1" src="video/horizon_astral_attacker.mp4"></video>
+        </div>
+        <!-- Attack 2 -->
+        <div class="attack-title">Attack 2: Unidirectional Material</div>
+        <div class="controls">
+          <button onclick="togglePlay('horizon-v2', 'horizon-a2')">Play/Pause</button>
+        </div>
+        <div class="descriptions">
+          <span id="sentence-display-horizon-v2" class="sentence-display"></span>
+          <div id="hidden-sentences-horizon-v2" class="hidden-sentences">
+            <span data-start="0" data-end="5">[The victim is moving around in a room with solid walls while the attacker is watching the victim through a one-way see-through wall.]</span>
+            <span data-start="5" data-end="7">[The attacker can also hear the victim.]</span>
+            <span data-start="8" data-end="26">[The attacker can also see the victim from the floor below while the victim see the floor as a solid object.]</span>
+          </div>
+        </div>
+        <div class="video-cell victim" id="cell-horizon-v2">
+          <video id="horizon-v2" src="video/horizon_unidirectional_victim.mp4"></video>
+        </div>
+        <div class="video-cell attacker" id="cell-horizon-a2">
+          <video id="horizon-a2" src="video/horizon_unidirectional_attacker.mp4"></video>
+        </div>
+      </div>
+    </div>
+    <!-- Frame -->
+    <div class="platform-attacks platform-framevr-attacks">
+      <div class="video-grid">
+        <!-- Add 5 Frame attack rows here -->
+        <!-- Attack 1 -->
+        <div class="attack-title">Attack 1: Astral Projection</div>
+        <div class="controls">
+          <button onclick="togglePlay('frame-v1', 'frame-a1')">Play/Pause</button>
+        </div>
+        <div class="descriptions">
+          <span id="sentence-display-frame-v1" class="sentence-display"></span>
+          <div id="hidden-sentences-frame-v1" class="hidden-sentences">
+            <span data-start="0" data-end="4">[The attacker zooms out the view towards the other room, passing through wall.]</span>
+            <span data-start="4" data-end="10">[The attacker sees the victim moving in the room.]</span>
+          </div>
+        </div>
+        <div class="video-cell victim" id="cell-frame-v1">
+          <video id="frame-v1" src="video/frame_astral_victim.mp4"></video>
+        </div>
+        <div class="video-cell attacker" id="cell-frame-a1">
+          <video id="frame-a1" src="video/frame_astral_attacker.mp4"></video>
+        </div>
+        <!-- Attack 2 -->
+        <div class="attack-title">Attack 2: Unidirectional Material</div>
+        <div class="controls">
+          <button onclick="togglePlay('frame-v2', 'frame-a2')">Play/Pause</button>
+        </div>
+        <div class="descriptions">
+          <span id="sentence-display-frame-v2" class="sentence-display"></span>
+          <div id="hidden-sentences-frame-v2" class="hidden-sentences">
+            <span data-start="0" data-end="4">[The victim is moving around in a room with solid walls while the attacker is watching the victim through a one-way see-through wall.]</span>
+            <span data-start="4" data-end="6">[The attacker can also hear the victim.]</span>
+            <span data-start="7" data-end="10">[The attacker can also see the victim from the floor below while the victim see the floor as a solid object.]</span>
+            <span data-start="10" data-end="13">[The sound gets louder as the attacker approaches the victim.]</span>
+          </div>
+        </div>
+        <div class="video-cell victim" id="cell-frame-v2">
+          <video id="frame-v2" src="video/frame_unidirectional_victim.mp4"></video>
+        </div>
+        <div class="video-cell attacker" id="cell-frame-a2">
+          <video id="frame-a2" src="video/frame_unidirectional_attacker.mp4"></video>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
