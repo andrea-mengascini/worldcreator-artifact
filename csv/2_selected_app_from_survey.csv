@@ -1,0 +1,42 @@
+name,Occurrence,order,Main page,Store Link,Accessible,Multiplayer,Social,Creator,HMD,Origin,Store,Price,Number of Reviews,Temp_reviews_no_n/a,Normalized reviews,Web Visitor Count,Normalized visitors,Z-score
+Microsoft Mesh,,15,https://www.microsoft.com/en-us/microsoft-teams/microsoft-mesh,https://www.meta.com/en-gb/experiences/microsoft-mesh/6750166401689690/,Yes,Yes,Yes,Yes,,quest_query_data_metaverse,Quest,0,75,75,-0.273326599,3491000000,5.874353327,5.601026727
+VRChat,,1,vrchat.com,https://store.steampowered.com/app/438100/VRChat/?snr=1_7_7_151_150_1,Yes,Yes,Yes,Yes,,steam_query_data_metaverse,Steam,,223788,223788,5.666070026,9072000,-0.1787561089,5.487313917
+Rec Room,,4,https://recroom.com/,https://store.steampowered.com/app/471710/Rec_Room/?snr=1_7_7_151_150_1,Yes,Yes,Yes,Yes,,steam_query_data_vr_multiplayer,Steam,,65671,65671,1.468193389,330865,-0.1939520138,1.274241375
+Roblox,,7,https://www.roblox.com/,https://www.meta.com/en-gb/experiences/roblox/5804350719675181/,Yes,Yes,Yes,Yes,,quest_query_data_metaverse,Quest,0,7029,7029,-0.08870360383,728800000,1.07244505,0.9837414459
+Yeeps: Hide and Seek,,2,https://godsofgravityvr.com/pages/yeeps-hide-and-seek,https://www.oculus.com/experiences/quest/7276525889052788/,Yes,Yes,Yes,Yes,Quest,QuestDB,Quest,Free,43140,43140,0.8700138221,3297,-0.1945214699,0.6754923523
+GRAB,,7,https://grabvr.quest/,https://www.meta.com/en-gb/experiences/grab/4104088956355944/,Yes,Yes,Yes,Yes,,quest_query_data_social,Quest,0,10615,10615,0.006501754361,0,-0.1945272015,-0.1880254471
+Meta Horizon Worlds,,8,https://www.meta.com/en-gb/experiences/meta-horizon-worlds/2532035600194083/,https://www.meta.com/en-gb/experiences/meta-horizon-worlds/2532035600194083/,Yes,Yes,Yes,Yes,Yes,Google search,Meta,Free,"9,113","9,113",-0.03337511346,19610000,-0.160436469,-0.1938115824
+Penguin Paradise,,21,http://www.savastudios.xyz/,https://www.oculus.com/experiences/quest/5817303821616533/,Yes,Yes,Yes,Yes,Quest,QuestDB,Quest,Free,4421,4421,-0.1579438643,0,-0.1945272015,-0.3524710658
+DigiGods: Build and Battle,,22,https://www.digigods.gg/,https://www.oculus.com/experiences/quest/6859397944122034/,Yes,Yes,Yes,Yes,Quest,QuestDB,Quest,Free,4170,4170,-0.1646077084,0,-0.1945272015,-0.3591349099
+Remio,,19,https://www.remiovr.com/,https://www.meta.com/en-gb/experiences/remio/5120897861344596/,Yes,Yes,Yes,Yes,,quest_query_data_social,Quest,0,3517,3517,-0.1819443227,1845,-0.1945239941,-0.3764683168
+ChilloutVR,,8,https://abinteractive.net/,https://store.steampowered.com/app/661130/ChilloutVR/?snr=1_7_7_151_150_1,Yes,Yes,Yes,Yes,,steam_query_data_metaverse,Steam,,2332,2332,-0.2134051006,13447,-0.1945038247,-0.4079089253
+Neos VR,,14,https://neos.com/,https://store.steampowered.com/app/740250/Neos_VR/,Yes,Yes,Yes,Yes,Yes,Google search,Steam,Free,2245,2245,-0.2157148792,6153,-0.1945165049,-0.4102313841
+Villa: AI Creation & Collaboration,,36,https://www.villa.rocks/,https://www.oculus.com/experiences/quest/4784171281624823/,Yes,Yes,Yes,Yes,Quest,QuestDB,Quest,Free,2192,2192,-0.2171219857,1652,-0.1945243296,-0.4116463153
+AltspaceVR,,54,http://www.altvr.com/,https://www.oculus.com/experiences/quest/2133027990157329/,Yes,Yes,Yes,Yes,Quest,QuestDB,Quest,Free,1106,1106,-0.2459543948,1307,-0.1945249293,-0.4404793242
+Resonite,,16,https://resonite.com/,https://store.steampowered.com/app/2519830/Resonite/?snr=1_7_7_151_150_1,Yes,Yes,Yes,Yes,,steam_query_data_vr_multiplayer,Steam,,1041,1041,-0.2476800915,118901,-0.1943204997,-0.4420005912
+Multiverse,,1,https://www.multiverseupdates.com/,https://www.meta.com/en-gb/experiences/multiverse/1976071352472244/,Yes,Yes,Yes,Yes,,quest_query_data_metaverse,Quest,0,1001,1001,-0.2487420587,3783,-0.194520625,-0.4432626837
+Spatial,,33,https://www.spatial.io/,https://www.meta.com/en-gb/experiences/spatial/2927141310670477/,Yes,Yes,Yes,Yes,,quest_query_data_social,Quest,0,557,557,-0.2605298945,1628000,-0.1916970275,-0.4522269219
+Sansar,,33,https://www.sansar.com/,https://store.steampowered.com/app/586110/Sansar/?snr=1_7_7_151_150_1,Yes,Yes,Yes,Yes,,steam_query_data_metaverse,Steam,,615,615,-0.258990042,65619,-0.194413127,-0.4534031691
+Derby,,27,https://throwback.studio/,https://www.meta.com/en-gb/experiences/derby/5981971501867491/,Yes,Yes,Yes,Yes,,quest_query_data_social,Quest,0,454,454,-0.26326446,0,-0.1945272015,-0.4577916614
+Viveport Verse,,113,https://www.viverse.com/,https://www.viveport.com/apps/2e307556-9387-42e0-9c39-fa472758c410?hl=en-US,Yes,Yes,Yes,Yes,Yes,Google search,Main page,Free,N/A,1021,-0.2482110751,173418,-0.1942257254,-0.4424368005
+FRAME,First,49,https://framevr.io/,https://framevr.io/,Yes,Yes,Yes,Yes,Yes,Google search,Online,Free,N/A,1021,-0.2482110751,34281,-0.1944676061,-0.4426786812
+Somnium Space,First,124,https://somniumspace.com/,https://somniumspace.com/,Yes,Yes,Yes,Yes,Yes,Google search,,Free,N/A,1021,-0.2482110751,25677,-0.1944825637,-0.4426936388
+Sinespace,First,101,https://sine.space/,https://sine.space/vr,Yes,Yes,Yes,Yes,Yes,Google search,,Free,N/A,1021,-0.2482110751,4242,-0.194519827,-0.4427309021
+Overte,First,83,https://overte.org/,https://overte.org/index.html,Yes,Yes,Yes,Yes,Yes,Google search,,Free,N/A,1021,-0.2482110751,1683,-0.1945242757,-0.4427353508
+Third Room,First,75,https://thirdroom.io/landing,thirdroom.io,Yes,Yes,Yes,Yes,Yes,Google search,,Free,N/A,1021,-0.2482110751,1183,-0.1945251449,-0.44273622
+Vircadia,First,112,https://vircadia.com/,https://app.vircadia.com/#/,Yes,Yes,Yes,Yes,,Google search,,Free,N/A,1021,-0.2482110751,899,-0.1945256386,-0.4427367137
+VRLand,First,119,https://vrland.io/,https://vrland.io/,Yes,Yes,Yes,Yes,,Google search,,Free,N/A,1021,-0.2482110751,789,-0.1945258299,-0.4427369049
+Neo Art Space,First,213,https://www.neoartspace.com/,https://store.steampowered.com/app/1714400/Neo_Art_Space/?curator_clanid=4777282,Yes,Yes,Yes,Yes,Yes,SteamDB,Steam,Free,N/A,1021,-0.2482110751,235,-0.1945267929,-0.442737868
+Tivoli Cloud VR,First,108,https://tivolicloud.github.io/,https://tivolicloud.github.io/,Yes,Yes,Yes,Yes,Yes,Google search,Main page,Free,N/A,1021,-0.2482110751,157,-0.1945269285,-0.4427380036
+Arkio,First,6,https://www.arkio.is/,https://www.meta.com/en-gb/experiences/arkio/2280319701979278/,Yes,Yes,Yes,Yes,,quest_query_data_metaverse,Quest,0,204,204,-0.2699017549,31159,-0.1944730335,-0.4643747884
+Cluster,First,31,https://cluster.mu/,https://www.meta.com/en-gb/experiences/cluster/4178943235565629/,Yes,Yes,Yes,Yes,Yes,Google search,Meta,Free,95,95,-0.2727956154,924660,-0.1929197391,-0.4657153546
+ENGAGE,First,42,https://engagevr.io/,"https://www.meta.com/en-gb/experiences/3092079454190601/
+https://store.steampowered.com/app/449130/ENGAGE/",Yes,Yes,Yes,Yes,Yes,Google search,"Meta
+Steam","Free
+Free",140,140,-0.2716009024,87196,-0.1943756168,-0.4659765192
+VirtualCast,First,28,https://virtualcast.jp/,https://store.steampowered.com/app/947890/VirtualCast/?snr=1_7_7_151_150_1,,Yes,Yes,Yes,,steam_query_data_vr_multiplayer,Steam,,99,99,-0.2726894187,143247,-0.1942781757,-0.4669675944
+Zoe,First,22,https://zoeimmersive.com/,https://www.meta.com/en-gb/experiences/zoe/5464660053555314/,Yes,Yes,Yes,Yes,,quest_query_data_social,Quest,0,102,102,-0.2726097712,13448,-0.194503823,-0.4671135942
+Arthur,First,74,https://www.arthur.digital/,https://www.meta.com/en-gb/experiences/arthur/2108767382537806/,Yes,Yes,Yes,Yes,,quest_query_data_social,Quest,0,56,56,-0.2738310334,11723,-0.1945068218,-0.4683378552
+Teleporter: World of Gamers (Alpha),First,53,https://teleporter.gg/,https://store.steampowered.com/app/1232510/Teleporter_World_of_Gamers_Alpha/?snr=1_7_7_151_150_2,Yes,Yes,Yes,Yes,,steam_query_data_vr_multiplayer,Steam,,56,56,-0.2738310334,968,-0.1945255187,-0.4683565521
+VRROOM,First,19,https://vrroom.world/,https://store.steampowered.com/app/2166320/VRROOM/?snr=1_7_7_151_150_1,Yes,Yes,Yes,Yes,,steam_query_data_metaverse,Steam,,17,17,-0.2748664515,2758,-0.1945224069,-0.4693888583
+vrzone,First,9,https://vrzone.io/,https://sidequestvr.com/app/429,Yes,Yes,Yes,Yes,Yes,Google search,"Meta, PC, MacOs",#N/A,3,3,-0.27523814,2314,-0.1945231787,-0.4697613187

@@ -1,6 +1,6 @@
 # Metaverse Attack Videos - Paper Submission Materials
 
-This anonymous repository contains supplemental video material for the omniscience attacks introduced in our paper **Omniscience for the Masses: New Threats in the Metaverse’s Democratized World Creation**, currently under review at IEEE S&P 2026.
+This anonymous repository contains supplemental video material for the omniscience attacks introduced in our paper **Omniscience for the Masses: New Threats in the Metaverse’s Democratized World Creation**, currently under review at USENIX 2026.
 
 ## Anonymous Website (Recommended)
 
@@ -17,9 +17,22 @@ The site is fully anonymous and hosted on `4open.science` specifically for artif
 
 ## Repository Content
 
-This repository contains the source code of the website. The main file is `index.html`, which links to a collection of videos in the `video/` directory demonstrating world creator attacks in metaverse environments. Each video shows the attack from one perspective:
+This repository contains the source code of the website and the application-survey, coding of the  analysis, and the notes on how coding conflicts were resolved.
+
+### Website Source Code
+The main file  for the website is `index.html`, which links to a collection of videos in the `video/` directory demonstrating world creator attacks in metaverse environments. Each video shows the attack from one perspective:
 
 - **Victim** (or Bystander): The viewpoint of the user being targeted within the metaverse.
 - **Attacker**: The viewpoint of the adversary targeting the victim.
 
 The victim and attacker videos are synchronized and enriched with detailed explanations via JavaScript in `index.html`. For this reason, we recommend exploring this supplementary material via the website here: https://anonymous.4open.science/w/worldcreator-artifact/.
+
+### Survey Data
+The `csv/` directory contains survey data collected from metaverse applications, along with coding files.
+
+The directory includes the following files:
+- Query results from stores and search engines:
+`1_GoogleQuery.csv`, `1_quest_query_data_metaverse.csv`, `1_quest_query_data_social.csv`, `1_QuestDB.csv`, `1_SteamDB.csv`, `1_steam_query_data_metaverse.csv`, `1_steam_query_data_vr_multiplayer.csv` ;
+- Application survey data: `2_App_survey.csv` (full app survey dataset) and `2_selected_app_from_survey.csv`.
+- World creation and editor tools surveys: `3_creation_survey.csv` (world creation survey data) and `3_result_from_the_creation_survey.csv` (platform editor tools survey data).
+- Literature survey coding: `4_literature_survey.csv`, containing the coding of identified attacks from the literature.
