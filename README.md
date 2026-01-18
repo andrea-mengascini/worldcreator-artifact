@@ -17,7 +17,7 @@ The site is fully anonymous and hosted on `4open.science` specifically for artif
 
 ## Repository Content
 
-This repository contains the source code of the website and the application-survey, coding of the  analysis, and the notes on how coding conflicts were resolved.
+This repository contains the source code of the website and the application-survey, the 3D one-way material file, coding of the  analysis, and the notes on how coding conflicts were resolved.
 
 ### Website Source Code
 The main file  for the website is `index.html`, which links to a collection of videos in the `video/` directory demonstrating world creator attacks in metaverse environments. Each video shows the attack from one perspective:
@@ -26,6 +26,8 @@ The main file  for the website is `index.html`, which links to a collection of v
 - **Attacker**: The viewpoint of the adversary targeting the victim.
 
 The victim and attacker videos are synchronized and enriched with detailed explanations via JavaScript in `index.html`. For this reason, we recommend exploring this supplementary material via the website here: https://anonymous.4open.science/w/worldcreator-artifact/.
+
+Additionally, the one-way 3D Material file `unidirectional_transparent_material.glb` is included.
 
 ### Survey Data
 The `csv/` directory contains survey data collected from metaverse applications, along with coding files.
