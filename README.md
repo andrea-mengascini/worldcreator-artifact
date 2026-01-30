@@ -4,7 +4,7 @@ This anonymous repository contains supplemental video material for the omniscien
 
 ## Anonymous Website (Recommended)
 
-The easiest and most effective way to explore our supplementary materials is via the anonymous website linked here: https://anonymous.4open.science/w/worldcreator-artifact/. The same link is available via the **"Website"** button in the top-right corner of this page.
+The easiest and most effective way to explore our supplementary materials is via the anonymous website linked here: https://anonymous.4open.science/w/artifacts-worldcreator/. The same link is available via the **"Website"** button in the top-right corner of this page.
 
 The site is fully anonymous and hosted on `4open.science` specifically for artifact evaluation. We provide the link here solely for your convenience.
 
