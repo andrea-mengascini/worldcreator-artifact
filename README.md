@@ -38,3 +38,9 @@ The directory includes the following files:
 - Application survey data: `2_App_survey.csv` (full app survey dataset) and `2_selected_app_from_survey.csv`.
 - World creation and editor tools surveys: `3_creation_survey.csv` (world creation survey data) and `3_result_from_the_creation_survey.csv` (platform editor tools survey data).
 - Literature survey coding: `4_literature_survey.csv`, containing the coding of identified attacks from the literature.
+
+### Attack Overhead Benchmark
+The `csv/benchmark` directory contains victim-client benchmark data comparing performance with and without the attack.
+For each attack and platform, we recorded the victim client’s average frame rate, CPU utilization, and GPU utilization.
+Each measurement was repeated three times, except for Spatial (included only in `run_1.csv`), which discontinued 3D
+World hosting during the benchmark process.

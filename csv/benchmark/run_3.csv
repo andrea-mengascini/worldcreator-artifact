@@ -1,0 +1,28 @@
+,w/o Attack,,,w/ Attack,,,diff,,,diff,,
+VRChat,avg. fps,cpu utilization,gpu utilization,avg. fps,cpu utilization,gpu utilization,avg. fps,cpu utilization,gpu utilization,avg. fps,cpu utilization,gpu utilization
+Parabolic Microphone,72.65,39.25,21.45,72.6,39.45,21.55,-0.0006882312457,0.005095541401,0.004662004662,-0.07%,0.51%,0.47%
+Control Room,72.6,42.3,28.25,72.7,43.85,28.6,0.001377410468,0.036643026,0.01238938053,0.14%,3.66%,1.24%
+Astral Projection,72.45,43.05,28.25,72.65,44.55,28.85,0.0027605245,0.03484320557,0.02123893805,0.28%,3.48%,2.12%
+Unidirectional Material,72.45,39.8,21.05,72.75,40.7,21.8,0.004140786749,0.02261306533,0.03562945368,0.41%,2.26%,3.56%
+Conversation Hijacking,72.65,41.75,19.25,72.6,41.7,21.2,-0.0006882312457,-0.00119760479,0.1012987013,-0.07%,-0.12%,10.13%
+,,,,,,,,,,,,
+,w/o Attack,,,w/ Attack,,,diff,,,diff,,
+Roblox,avg. fps,cpu utilization,gpu utilization,avg. fps,cpu utilization,gpu utilization,avg. fps,cpu utilization,gpu utilization,avg. fps,cpu utilization,gpu utilization
+Parabolic Microphone,86.55,28.8,95.6,90.2,31.75,93.9,0.04217215482,0.1024305556,-0.01778242678,4.22%,10.24%,-1.78%
+Control Room,89,33.95,93.74,90.25,28.3,89.3,0.01404494382,-0.1664212077,-0.04736505227,1.40%,-16.64%,-4.74%
+Astral Projection,90.2,29.95,95,90.2,31.8,95.05,0,0.06176961603,0.0005263157895,0.00%,6.18%,0.05%
+Unidirectional Material,90.2,31.25,90.7,90.15,31.05,90.25,-0.0005543237251,-0.0064,-0.004961411246,-0.06%,-0.64%,-0.50%
+Conversation Hijacking,90.2,27.6,76.7,90.25,28.1,76.9,0.0005543237251,0.01811594203,0.00260756193,0.06%,1.81%,0.26%
+,,,,,,,,,,,,
+,w/o Attack,,,w/ Attack,,,diff,,,diff,,
+Frame,avg. fps,cpu utilization,gpu utilization,avg. fps,cpu utilization,gpu utilization,avg. fps,cpu utilization,gpu utilization,avg. fps,cpu utilization,gpu utilization
+Astral Projection,85,40,80,83,51,87,-0.02352941176,0.275,0.0875,-2.35%,27.50%,8.75%
+Unidirectional,87,33,59,89,45,63,0.02298850575,0.3636363636,0.06779661017,2.30%,36.36%,6.78%
+,,,,,,,,,,,,
+,w/o Attack,,,w/ Attack,,,diff,,,diff,,
+Horizon Worlds,avg. fps,cpu utilization,gpu utilization,avg. fps,cpu utilization,gpu utilization,avg. fps,cpu utilization,gpu utilization,avg. fps,cpu utilization,gpu utilization
+Astral Projection,72.7,31.5,19.4,72.63,32.42,20,-0.0009628610729,0.02920634921,0.03092783505,-0.10%,2.92%,3.09%
+Unidirectional,72.7,33.7,20,72.5,33.1,20,-0.002751031637,-0.0178041543,0,-0.28%,-1.78%,0.00%
+,,,,,,,,,,,,
+,,avg. fps,cpu utilization,gpu utilization,,,,,,,,
+,Average,0.42%,5.41%,2.10%,,,,,,,,
