@@ -1,12 +1,10 @@
 # Metaverse Attack Videos - Paper Submission Materials
 
-This anonymous repository contains supplemental video material for the omniscience attacks introduced in our paper **Omniscience for the Masses: New Threats in the Metaverse’s Democratized World Creation**, currently under review at CCS 2026.
+This anonymous repository contains supplemental video material for the omniscience attacks introduced in our paper **Omniscience for the Masses: New Threats in the Metaverse’s Democratized World Creation**, accepted at CCS 2026.
 
-## Anonymous Website (Recommended)
+## Website (Recommended)
 
-The easiest and most effective way to explore our supplementary materials is via the anonymous website linked here: https://anonymous.4open.science/w/artifacts-worldcreator/. The same link is available via the **"Website"** button in the top-right corner of this page.
-
-The site is fully anonymous and hosted on `4open.science` specifically for artifact evaluation. We provide the link here solely for your convenience.
+The easiest and most effective way to explore our supplementary materials is via the website linked here: https://andrea-mengascini.github.io/worldcreator-artifact/.
 
 ### How to Use the Website
 
@@ -25,7 +23,7 @@ The main file  for the website is `index.html`, which links to a collection of v
 - **Victim** (or Bystander): The viewpoint of the user being targeted within the metaverse.
 - **Attacker**: The viewpoint of the adversary targeting the victim.
 
-The victim and attacker videos are synchronized and enriched with detailed explanations via JavaScript in `index.html`. For this reason, we recommend exploring this supplementary material via the website here: https://anonymous.4open.science/w/worldcreator-artifact/.
+The victim and attacker videos are synchronized and enriched with detailed explanations via JavaScript in `index.html`. For this reason, we recommend exploring this supplementary material via the website.
 
 Additionally, the one-way 3D Material file `unidirectional_transparent_material.glb` is included.
 
