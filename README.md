@@ -1,6 +1,6 @@
 # Metaverse Attack Videos - Paper Submission Materials
 
-This anonymous repository contains supplemental video material for the omniscience attacks introduced in our paper **Omniscience for the Masses: New Threats in the Metaverse’s Democratized World Creation**, accepted at CCS 2026.
+This repository contains supplemental video material for the omniscience attacks introduced in our paper **Omniscience for the Masses: New Threats in the Metaverse’s Democratized World Creation**, accepted at CCS 2026.
 
 ## Website (Recommended)
 
