@@ -17,7 +17,7 @@ The easiest and most effective way to explore our supplementary materials is via
 
 ## Repository Content
 
-This repository contains the source code of the website and the application-survey, the 3D one-way material file, coding of the analysis, and the notes on how coding conflicts were resolved (the `Conflict resolution` column in `4_literature_survey.csv`).
+This repository contains the source code of the website and the application-survey, the 3D one-way material file, and the coding of the analysis.
 
 ### Website Source Code
 The main file  for the website is `index.html`, which links to a collection of videos in the `video/` directory demonstrating world creator attacks in metaverse environments. Each video shows the attack from one perspective:
@@ -37,7 +37,7 @@ The directory includes the following files:
 `1_GoogleQuery.csv`, `1_quest_query_data_metaverse.csv`, `1_quest_query_data_social.csv`, `1_QuestDB.csv`, `1_SteamDB.csv`, `1_steam_query_data_metaverse.csv`, `1_steam_query_data_vr_multiplayer.csv` ;
 - Application survey data: `2_App_survey.csv` (full app survey dataset) and `2_selected_app_from_survey.csv`.
 - World creation and editor tools surveys: `3_creation_survey.csv` (world creation survey data) and `3_result_from_the_creation_survey.csv` (platform editor tools survey data).
-- Literature survey coding: `4_literature_survey.csv`, containing the coding of identified attacks from the literature. The codes of both coders are kept (the two `Topic-code` and `Attacker-code` columns). The last column, `Conflict resolution`, reports how the disagreements were solved.
+- Literature survey coding: `4_literature_survey.csv`, containing the coding of identified attacks from the literature.
 
 ### Attack Overhead Benchmark
 The `csv/benchmark` directory contains victim-client benchmark data comparing performance with and without the attack.
