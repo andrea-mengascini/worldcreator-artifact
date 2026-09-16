@@ -2,6 +2,8 @@
 
 This repository contains supplemental video material for the omniscience attacks introduced in our paper **Omniscience for the Masses: New Threats in the Metaverse’s Democratized World Creation**, accepted at CCS 2026.
 
+The videos cover the five omniscience attacks of Section 4 of the paper. The reproductions of prior attacks (Section 5) are described in the paper but are not part of the videos.
+
 ## Website (Recommended)
 
 The easiest and most effective way to explore our supplementary materials is via the website linked here: https://andrea-mengascini.github.io/worldcreator-artifact/.
@@ -15,7 +17,7 @@ The easiest and most effective way to explore our supplementary materials is via
 
 ## Repository Content
 
-This repository contains the source code of the website and the application-survey, the 3D one-way material file, coding of the  analysis, and the notes on how coding conflicts were resolved.
+This repository contains the source code of the website and the application-survey, the 3D one-way material file, coding of the analysis, and the notes on how coding conflicts were resolved (the `Conflict resolution` column in `4_literature_survey.csv`).
 
 ### Website Source Code
 The main file  for the website is `index.html`, which links to a collection of videos in the `video/` directory demonstrating world creator attacks in metaverse environments. Each video shows the attack from one perspective:
@@ -35,10 +37,13 @@ The directory includes the following files:
 `1_GoogleQuery.csv`, `1_quest_query_data_metaverse.csv`, `1_quest_query_data_social.csv`, `1_QuestDB.csv`, `1_SteamDB.csv`, `1_steam_query_data_metaverse.csv`, `1_steam_query_data_vr_multiplayer.csv` ;
 - Application survey data: `2_App_survey.csv` (full app survey dataset) and `2_selected_app_from_survey.csv`.
 - World creation and editor tools surveys: `3_creation_survey.csv` (world creation survey data) and `3_result_from_the_creation_survey.csv` (platform editor tools survey data).
-- Literature survey coding: `4_literature_survey.csv`, containing the coding of identified attacks from the literature.
+- Literature survey coding: `4_literature_survey.csv`, containing the coding of identified attacks from the literature. The codes of both coders are kept (the two `Topic-code` and `Attacker-code` columns). The last column, `Conflict resolution`, reports how the disagreements were solved.
 
 ### Attack Overhead Benchmark
 The `csv/benchmark` directory contains victim-client benchmark data comparing performance with and without the attack.
 For each attack and platform, we recorded the victim client’s average frame rate, CPU utilization, and GPU utilization.
 Each measurement was repeated three times, except for Spatial (included only in `run_1.csv`), which discontinued 3D
 World hosting during the benchmark process.
+
+## License
+This artifact is released under the Creative Commons Attribution 4.0 International license (CC BY 4.0), see `LICENSE`.
