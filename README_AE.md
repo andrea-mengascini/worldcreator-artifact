@@ -45,7 +45,7 @@ cd worldcreator-artifact
 git checkout v1.1.1      # commit 151a4ac
 ```
 
-In both cases the resulting folder has the following layout.
+In both cases, the resulting folder has the following layout.
 
 ```
 .
@@ -80,7 +80,7 @@ In both cases the resulting folder has the following layout.
 2. Select a platform from the cards at the top of the page (Roblox, VRChat, Spatial, Horizon Worlds, FrameVR).
 3. Play an attack. The victim (or bystander) video is on the left and the attacker video on the right. Pressing play on either one starts both: `script.js` keeps them synchronized, and the captions below describe what happens at each timestamp. The ring around each video is a volume meter, which shows when the attacker can hear the victim.
 
-The reviewer should find five attacks for Roblox and VRChat, three for Spatial, two for Horizon Worlds and two for FrameVR, 17 in total, each with a pair of synchronized recordings.
+The reviewer should find five attacks for Roblox and VRChat, three for Spatial, two for Horizon Worlds, and two for FrameVR, 17 in total, each with a pair of synchronized recordings.
 
 ## Correspondence between the paper and the artifact
 
@@ -88,7 +88,7 @@ The five parts below are independent of each other and can be examined in any or
 
 ### 5.1 Attack recordings (§4, Table 2)
 
-The five platforms on the website cover all the attacks. Each attack shows the victim video on the left and the attacker video on the right, synchronized, with captions underneath. The same files are available in `video/`, named `<platform>_<attack>_<attacker|victim>.mp4`, where `conv` stands for Conversation Hijacking. For that attack, the "victim" video is the bystander who is deceived.
+The five platforms on the website cover all the attacks. Each attack shows the victim's video on the left and the attacker's video on the right, synchronized, with captions underneath. The same files are available in `video/`, named `<platform>_<attack>_<attacker|victim>.mp4`, where `conv` stands for Conversation Hijacking. For that attack, the "victim" video is the bystander who is deceived.
 
 The pairs on the website correspond exactly to the filled cells of the omniscience part of Table 2:
 
@@ -98,12 +98,12 @@ The pairs on the website correspond exactly to the filled cells of the omniscien
 
 Each attack should exhibit the following behavior.
 
-- Parabolic Microphone (§4.1): the attacker continues to hear the victim from a distance at which the voice should no longer be audible. The volume meter on the attacker side rises again when the victim approaches the microphone object.
+- Parabolic Microphone (§4.1): the attacker continues to hear the victim from a distance at which the voice should no longer be audible. The volume meter on the attacker's side rises again when the victim approaches the microphone object.
 - Control Room (§4.2) and Astral Projection (§4.3): the attacker observes the victim through a camera feed or a detached camera, while the victim sees an ordinary room with no camera and no indicator.
 - Unidirectional Material (§4.4): the victim sees a solid wall or floor; the attacker sees through it.
 - Conversation Hijacking (§4.5): the bystander continues to hear "the victim" while the real victim is muted and the attacker speaks in their place.
 
-In all recordings, the victim side shows no visual or audio trace of the attack, which is the stealthiness claim of §4.6.
+In all recordings, the victim's side shows no visual or audio trace of the attack, which is the stealthiness claim of §4.6.
 
 ### 5.2 Platform survey (§3, Table 1 and Table 3)
 
@@ -122,7 +122,7 @@ For the 11 platforms listed as discarded below Table 3, the reason is given in `
 
 The remaining files document the steps that led to the 25 platforms.
 
-1. `csv/1_*.csv`: raw results of the queries on Google, Steam (store and SteamDB) and the Meta Quest store (store and QuestDB).
+1. `csv/1_*.csv`: raw results of the queries on Google, Steam (store and SteamDB), and the Meta Quest store (store and QuestDB).
 2. `csv/2_App_survey.csv`: the merged list of 561 applications. The columns `Accessible`, `Multiplayer`, `Social` and `Creator` are the inclusion criteria, and `Z-score` is the popularity rank. `csv/2_selected_app_from_survey.csv` lists the 38 applications that pass all criteria, ranked; the first 25 are the platforms of Table 3.
 3. `csv/3_creation_survey.csv`: the working sheet of the coding. Only the 38 shortlisted applications have the coding columns filled (from `Who` onward, where `Who` indicates the coder who handled the platform). The other rows contain application metadata only.
 
@@ -150,8 +150,6 @@ Only `run_1.csv` covers all five platforms: Spatial stopped hosting custom 3D wo
 
 **Platform changes.** Spatial stopped hosting custom 3D worlds during the study (hence the single benchmark run including it), and FrameVR later removed its JavaScript custom editor (see the footnote of Table 3). The recordings show the platforms as they were at the time of the experiments.
 
-**Badges.** Reproducing the attacks live requires creator accounts on the platforms and the world files, which we do not release for the reasons given in Appendix B. For this reason we request the Available and Functional badges, and not Results Reproduced.
+**Badges.** Reproducing the attacks live requires creator accounts on the platforms and the world files, which we do not release for the reasons given in Appendix B. For this reason, we request the Available and Functional badges, and not Results Reproduced.
 
 **Ethics.** All recordings were made in private or unlisted instances using our own test accounts. No other users appear in them (Appendix B).
-
-**Contact.** Andrea Mengascini, CISPA Helmholtz Center for Information Security, andrea.mengascini@cispa.de (through the HotCRP chairs while the evaluation is anonymous).
