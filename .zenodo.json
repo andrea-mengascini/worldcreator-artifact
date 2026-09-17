@@ -1,0 +1,49 @@
+{
+  "title": "Omniscience for the Masses: New Threats in the Metaverse's Democratized World Creation (CCS 2026 Artifact)",
+  "upload_type": "dataset",
+  "license": "CC-BY-4.0",
+  "creators": [
+    {
+      "name": "Mengascini, Andrea",
+      "affiliation": "CISPA Helmholtz Center for Information Security, Saarbrücken, Germany",
+      "orcid": "0009-0002-5560-1041"
+    },
+    {
+      "name": "Aurelio, Ryan",
+      "affiliation": "CISPA Helmholtz Center for Information Security, Saarbrücken, Germany",
+      "orcid": "0009-0005-4528-1998"
+    },
+    {
+      "name": "Polakis, Jason",
+      "affiliation": "University of Illinois Chicago, Chicago, Illinois, USA",
+      "orcid": "0000-0001-5034-0730"
+    },
+    {
+      "name": "Pellegrino, Giancarlo",
+      "affiliation": "CISPA Helmholtz Center for Information Security, Saarbrücken, Germany",
+      "orcid": "0009-0007-6223-8945"
+    }
+  ],
+  "description": "Artifact of the paper \"Omniscience for the Masses: New Threats in the Metaverse's Democratized World Creation\", accepted at ACM CCS 2026. It contains the attacker/victim video demonstrations of the five omniscience attacks and the website to browse them, the platform survey data (query results, candidate applications and the coding of the world creation tools of 25 platforms), the literature survey data (60 coded papers), the client-side overhead benchmark data, and the 3D object used for the unidirectionally transparent material. See README.md for a description of each file.",
+  "keywords": [
+    "metaverse",
+    "virtual reality",
+    "world creation",
+    "privacy",
+    "security",
+    "surveillance"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/andrea-mengascini/worldcreator-artifact",
+      "relation": "isSupplementTo",
+      "resource_type": "software"
+    },
+    {
+      "identifier": "10.1145/3830454.3846573",
+      "relation": "isSupplementTo",
+      "resource_type": "publication-article",
+      "scheme": "doi"
+    }
+  ]
+}
