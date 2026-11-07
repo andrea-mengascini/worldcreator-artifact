@@ -5,6 +5,7 @@ This repository contains the artifact of the paper *Omniscience for the Masses: 
 - **Zenodo:** [10.5281/zenodo.22670790](https://doi.org/10.5281/zenodo.22670790)
 - **Git mirror:** <https://github.com/andrea-mengascini/worldcreator-artifact>
 - **Website:** <https://andrea-mengascini.github.io/worldcreator-artifact/>
+- **Artifact appendix:** [`artifact-appendix.pdf`](artifact-appendix.pdf)
 - **Badges:** Artifacts Available, Artifacts Evaluated (Functional)
 - **License:** CC BY 4.0 (`LICENSE`)
 
@@ -50,6 +51,7 @@ In both cases, the resulting folder has the following layout.
 .
 ├── README.md                              this guide
 ├── LICENSE                                CC BY 4.0
+├── artifact-appendix.pdf                  artifact appendix
 ├── index.html / script.js / styles.css    website with the videos (A)
 ├── media/                                 platform logos and attacker/victim icons for the website
 ├── video/                                 34 .mp4 files, <platform>_<attack>_<attacker|victim>.mp4
